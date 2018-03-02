@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin-bottom: 20px;
+}
+input {
+    font-size: 16px;
+    height: 34px;
+    /* margin-top:1px; */
+    text-align: center;
+}
+
+button {
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-color: steelblue;
+    color: white;
+    font-size: 16px;
+}
+
+.wrapper{
+    background: #EC6F66;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F3A183, #EC6F66);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F3A183, #EC6F66); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    width: 800px;
+    height: 800px;
+    padding: 50px;
+}
+.weather {
+    font-size: 1.5em;
+    border: 5px solid black;
+    height: 300px;
+    width: 200px;
+    margin: 50px auto;
+}
+.loader {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border: 16px solid;
+    border-color: silver #15B3E1 silver #16CF97; 
+    border-radius: 50%;
+    margin: 50px auto;
+
+    animation: loader;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+}
+@keyframes loader {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
