@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px black;
+}
+h1 {
+    font-size: 150px;
+}
+h2 {
+    font-size: 40px;
+}
+
+input {
+    font-size: 16px;
+    margin-left: 20px;
+    outline: none;
+    box-shadow: 1px 1px 1px silver;
+}
+
+.wrapper{
+    background-image: url(https://d13k13wj6adfdf.cloudfront.net/urban_areas/seattle_web-e07e580eca.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: .8; */
+    width: 1000px;
+    color: white;
+    padding: 20px;
+}
+.header * {
+    display: inline;
+    
+}
+.row1 div {
+    display: inline-block;
+    margin: 0 20px;
+
+}
+.row1 h4 {
+    font-size: 30px;
+}
+.clouds {
+    display: block;
+}
+.search-box {
+    float: right;
+}
